@@ -73,3 +73,21 @@ body {
   background: #B3DAFB !important;
 }
 
+
+@media (min-width: 1500px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1570px) {
+  html {
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 1899px) {
+  html {
+    font-size: 22.5px;
+  }
+}

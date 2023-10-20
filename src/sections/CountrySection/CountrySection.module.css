@@ -51,6 +51,7 @@
   right: 0;
   bottom: 0;
   width: 2.625rem;
+  border-radius: calc(var(--border-radius) / 2);
 }
 
 .singleCountry .details,

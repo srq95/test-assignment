@@ -1,7 +1,7 @@
 const CountryData: CountryDataType[] = [
   {
     location: "North Macedonia",
-    icon: "/assets/images/flags/japan.svg",
+    icon: "/assets/images/flags/Japan.svg",
     detailList: [
       {
         name: "Companies",
