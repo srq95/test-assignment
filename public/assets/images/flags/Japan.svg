@@ -1,0 +1,15 @@
+<svg width="42" height="30" viewBox="0 0 42 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="42" height="30" rx="4" fill="white"/>
+<mask id="mask0_0_707" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="42" height="30">
+<rect width="42" height="30" rx="4" fill="white"/>
+</mask>
+<g mask="url(#mask0_0_707)">
+<rect width="42" height="30" fill="#E81B26"/>
+<ellipse cx="21" cy="15" rx="5" ry="5" fill="#FFE94F"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0 12L21 15L42 12V18L21 15L0 18V12Z" fill="#FFE94F"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M-1.0723 30.8371L21 15L39.0575 -5.29596L43.0723 -0.837089L21 15L2.94249 35.296L-1.0723 30.8371Z" fill="#FFE94F"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M43.0723 30.8371L21 15L2.94248 -5.29596L-1.0723 -0.83709L21 15L39.0575 35.296L43.0723 30.8371Z" fill="#FFE94F"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M21 15L18 0H24L21 15L24 30H18L21 15Z" fill="#FFE94F"/>
+<circle cx="21" cy="15" r="7" fill="#FFE94F"/>
+</g>
+</svg>
