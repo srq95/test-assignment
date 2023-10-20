@@ -1,5 +1,6 @@
 .header {
-  position: static;
+  position: sticky;
+  top: 0;
   width: 100%;
   background: #fff;
   padding: 0 1.25rem;

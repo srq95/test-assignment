@@ -1,0 +1,108 @@
+.singleCountry {
+  position: relative;
+  color: var(--primary);
+  background: #9cc7e3;
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  height: 100%;
+  z-index: 1;
+}
+
+.singleCountry::before,
+.singleCountry::after {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  background: url("/assets/images/shape/ellipse.png") no-repeat;
+  background-size: contain;
+  z-index: -1;
+}
+
+.singleCountry::before {
+  top: 0;
+  left: 0;
+}
+
+.singleCountry::after {
+  bottom: 0;
+  right: 0;
+  transform: rotate(180deg);
+}
+
+.singleCountryHead {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.singleCountryHead > h2 {
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.singleCountryHead > h3 {
+  font-size: 1.25rem;
+  margin: 0;
+  font-weight: 700;
+}
+
+.singleCountryHead > img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 2.625rem;
+}
+
+.singleCountry .details,
+.singleCountry ul {
+  text-align: center;
+}
+
+.singleCountry > ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 1.25rem 0;
+}
+
+.singleCountry > ul > li {
+  width: 50%;
+}
+
+.singleCountry > ul > li > img {
+  height: 1.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.singleCountry > ul > li > h3 {
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-bottom: 0.25rem;
+}
+
+.singleCountry > ul > li > p {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.details > h3,
+.details {
+  font-size: 0.75rem;
+}
+
+.details > img {
+  width: 3rem;
+  margin-bottom: 0.75rem;
+}
+
+.details > h3 {
+  font-weight: 700;
+}
+
+.details > p {
+  color: #000;
+  font-weight: 400;
+}

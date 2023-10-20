@@ -4,6 +4,8 @@ import SideMenu from "@/components/SideMenu";
 import Header from "@/components/Header";
 import DashboardHead from "@/sections/DashbroardHead";
 import StatsSection from "@/sections/StatsSection";
+import CountrySection from "@/sections/CountrySection";
+import Footer from "@/sections/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,11 +25,16 @@ export default function Home() {
           <section className="dashboardBodyArea">
             <DashboardHead />
             <StatsSection />
-            <div className="searchArea">
-              <img src="/assets/images/icons/search.svg" alt="" />
-              <input type="search" placeholder="Search"/>
+            <div style={{ display: "flex", justifyContent: "flex-end" }}>
+              <div className="searchArea">
+                <img src="/assets/images/icons/search.svg" alt="" />
+                <input type="search" placeholder="Search" />
+              </div>
             </div>
+
+            <CountrySection />
           </section>
+          <Footer />
         </section>
       </main>
     </>

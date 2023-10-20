@@ -43,7 +43,6 @@ body {
 }
 
 .searchArea {
-  float: right;
   margin: 1.5rem 0;
   position: relative;
 }
@@ -65,3 +64,12 @@ body {
   top: 50%;
   transform: translate(0%, -50%);
 }
+
+.greenBg {
+  background: #B8DCE7 !important;
+}
+
+.lightBlueBg {
+  background: #B3DAFB !important;
+}
+

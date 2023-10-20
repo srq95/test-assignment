@@ -23,6 +23,7 @@ declare global {
 
   interface CountryDataType {
     location: string;
+    icon: string;
     addClass?: string;
     detailList?: StatsDataType[];
     details?: StatsDataType;
