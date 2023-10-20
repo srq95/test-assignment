@@ -29,3 +29,39 @@ body {
 .dashboardBodyArea {
   padding: 2.5rem 2rem;
 }
+
+.gapequal-xy {
+  gap: calc(var(--bs-gutter-x) * 0.5) 0;
+}
+
+.gapequal-xy {
+  margin: 0 calc(var(--bs-gutter-x) * -0.25);
+}
+
+.gapequal-xy > * {
+  padding: 0 calc(var(--bs-gutter-x) * 0.25);
+}
+
+.searchArea {
+  float: right;
+  margin: 1.5rem 0;
+  position: relative;
+}
+
+.searchArea > input {
+  padding: 0.5rem 1rem 0.5rem 3rem;
+  background: transparent;
+  border: 1px solid #ccc;
+  border-radius: 4rem;
+  width: 100%;
+  max-width: 16.25rem;
+  outline: 0;
+}
+
+.searchArea > img {
+  position: absolute;
+  height: 1rem;
+  left: 1.25rem;
+  top: 50%;
+  transform: translate(0%, -50%);
+}

@@ -14,6 +14,19 @@ declare global {
     name: string;
     link: string;
   }
+
+  interface StatsDataType {
+    name: string;
+    icon: string;
+    detail: string;
+  }
+
+  interface CountryDataType {
+    location: string;
+    addClass?: string;
+    detailList?: StatsDataType[];
+    details?: StatsDataType;
+  }
 }
 
 export default global;

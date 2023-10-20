@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import SideMenu from "@/components/SideMenu";
 import Header from "@/components/Header";
 import DashboardHead from "@/sections/DashbroardHead";
+import StatsSection from "@/sections/StatsSection";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +22,11 @@ export default function Home() {
           <Header />
           <section className="dashboardBodyArea">
             <DashboardHead />
+            <StatsSection />
+            <div className="searchArea">
+              <img src="/assets/images/icons/search.svg" alt="" />
+              <input type="search" placeholder="Search"/>
+            </div>
           </section>
         </section>
       </main>
