@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Inter } from "next/font/google";
 import SideMenu from "@/components/SideMenu";
 import Header from "@/components/Header";
+import DashboardHead from "@/sections/DashbroardHead";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +19,9 @@ export default function Home() {
         <SideMenu />
         <section className="dashboardArea">
           <Header />
+          <section className="dashboardBodyArea">
+            <DashboardHead />
+          </section>
         </section>
       </main>
     </>

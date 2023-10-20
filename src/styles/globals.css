@@ -3,6 +3,7 @@
   --primary: #143975;
   --light-primary: #375b96;
   --secondary: #ffa033;
+  --border-radius: 0.375rem;
 }
 
 html {
@@ -23,4 +24,8 @@ body {
 
 .dashboardArea {
   width: 100%;
+}
+
+.dashboardBodyArea {
+  padding: 2.5rem 2rem;
 }

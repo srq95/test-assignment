@@ -1,0 +1,30 @@
+
+.dashboardHead > h1 {
+  font-size: 1.375rem;
+  color: var(--primary);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.dashboardTopRightLink {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+}
+
+.dashboardTopRightLink > button {
+  display: flex;
+  color: #fff;
+  background: var(--primary);
+  align-items: center;
+  border: 0;
+  outline: 0;
+  border-radius: var(--border-radius);
+  white-space: nowrap;
+  padding: 0.875rem 1.5rem;
+  gap: 0.5rem;
+}
+
+.dashboardTopRightLink > button > svg {
+  height: 0.75rem;
+}

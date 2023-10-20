@@ -8,7 +8,7 @@
 .breadcrumb > li > a {
   position: relative;
   display: inline-block;
-  padding-right: 0.75rem;
+  padding-right: 1rem;
   text-decoration: none;
   color: #000;
   font-weight: 500;
@@ -19,7 +19,7 @@
 }
 
 .breadcrumb > li:not(:first-child) > a {
-  padding-left: .75rem;
+  padding-left: 0.75rem;
 }
 
 .breadcrumb > li:not(:last-child) > a::before {

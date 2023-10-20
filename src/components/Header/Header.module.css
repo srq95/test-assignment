@@ -21,7 +21,7 @@
 }
 
 .flagsList > li {
-  padding: 1rem 0.5rem;
+  padding: 0.875rem 0.5rem;
 }
 
 .flagsList > li > a {
@@ -33,7 +33,7 @@
   content: "";
   position: absolute;
   left: 0;
-  bottom: -1rem;
+  bottom: -0.875rem;
   width: 0%;
   height: 0.125rem;
   background: var(--primary);
