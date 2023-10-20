@@ -16,7 +16,10 @@ const SideMenu = () => {
               {item.dropDown && (
                 <ul>
                   {item.dropDown.map((dropMenuItem, dropMenuIndex) => (
-                    <li key={dropMenuIndex}>
+                    <li
+                      key={dropMenuIndex}
+                      className={dropMenuItem.active ? style.active : ""}
+                    >
                       <MenuLinks item={dropMenuItem} />
                     </li>
                   ))}

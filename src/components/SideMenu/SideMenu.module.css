@@ -43,3 +43,21 @@
   transform: translate(0%, -50%);
   width: 1.25rem;
 }
+
+.sideMenu ul > li {
+  position: relative;
+  z-index: 1;
+}
+
+.sideMenu ul > li.active::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 12.875rem;
+  height: 150%;
+  background: url("/assets/images/shape/activeLink.png") no-repeat right center;
+  background-size: contain;
+  transform: translate(0%, -50%);
+  z-index: -1;
+}

@@ -33,6 +33,7 @@ const SideMenuLinks: SideMenuLinksType[] = [
         name: "Countries",
         icon: "/assets/images/icons/globe.svg",
         link: "/",
+        active: true,
       },
       {
         name: "Country Vacations",
@@ -48,7 +49,7 @@ const SideMenuBottomLinks: SideMenuLinksType[] = [
     name: "Logout",
     icon: "/assets/images/icons/logout.svg",
     link: "/",
-  }
-]
+  },
+];
 
-export {SideMenuLinks, SideMenuBottomLinks};
+export { SideMenuLinks, SideMenuBottomLinks };
