@@ -20,9 +20,9 @@ const Header = () => {
   ];
 
   const flags = [
-    "/assets/images/flags/Japan.svg",
-    "/assets/images/flags/Canada.svg",
-    "/assets/images/flags/Pakistan.png",
+    "/assets/images/flags/japan.svg",
+    "/assets/images/flags/canada.svg",
+    "/assets/images/flags/pakistan.png",
   ];
 
   return (
